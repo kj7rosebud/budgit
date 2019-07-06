@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C330D0FF22D118AF00C88079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C330D0FE22D118AF00C88079 /* AppDelegate.swift */; };
-		C330D10122D118AF00C88079 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C330D10022D118AF00C88079 /* ViewController.swift */; };
+		C330D10122D118AF00C88079 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C330D10022D118AF00C88079 /* DashboardViewController.swift */; };
 		C330D10422D118AF00C88079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C330D10222D118AF00C88079 /* Main.storyboard */; };
 		C330D10722D118AF00C88079 /* Budgit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C330D10522D118AF00C88079 /* Budgit.xcdatamodeld */; };
 		C330D10922D118B100C88079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C330D10822D118B100C88079 /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		C330D0FB22D118AF00C88079 /* Budgit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budgit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C330D0FE22D118AF00C88079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C330D10022D118AF00C88079 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C330D10022D118AF00C88079 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		C330D10322D118AF00C88079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C330D10622D118AF00C88079 /* Budgit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Budgit.xcdatamodel; sourceTree = "<group>"; };
 		C330D10822D118B100C88079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,13 +99,12 @@
 		C330D0FD22D118AF00C88079 /* Budgit */ = {
 			isa = PBXGroup;
 			children = (
-				C330D0FE22D118AF00C88079 /* AppDelegate.swift */,
-				C330D10022D118AF00C88079 /* ViewController.swift */,
-				C330D10222D118AF00C88079 /* Main.storyboard */,
-				C330D10822D118B100C88079 /* Assets.xcassets */,
-				C330D10A22D118B100C88079 /* LaunchScreen.storyboard */,
-				C330D10D22D118B100C88079 /* Info.plist */,
-				C330D10522D118AF00C88079 /* Budgit.xcdatamodeld */,
+				C330D12F22D1196300C88079 /* App */,
+				C330D13222D1199000C88079 /* Controllers */,
+				C330D13022D1196900C88079 /* Models */,
+				C330D13322D1199600C88079 /* Resources */,
+				C330D13422D1199C00C88079 /* Storyboards */,
+				C330D13122D1198700C88079 /* Views */,
 			);
 			path = Budgit;
 			sourceTree = "<group>";
@@ -126,6 +125,55 @@
 				C330D12322D118B100C88079 /* Info.plist */,
 			);
 			path = BudgitUITests;
+			sourceTree = "<group>";
+		};
+		C330D12F22D1196300C88079 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C330D0FE22D118AF00C88079 /* AppDelegate.swift */,
+				C330D10A22D118B100C88079 /* LaunchScreen.storyboard */,
+				C330D10D22D118B100C88079 /* Info.plist */,
+				C330D10522D118AF00C88079 /* Budgit.xcdatamodeld */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C330D13022D1196900C88079 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C330D13122D1198700C88079 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C330D13222D1199000C88079 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C330D10022D118AF00C88079 /* DashboardViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C330D13322D1199600C88079 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C330D10822D118B100C88079 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C330D13422D1199C00C88079 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C330D10222D118AF00C88079 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C330D10122D118AF00C88079 /* ViewController.swift in Sources */,
+				C330D10122D118AF00C88079 /* DashboardViewController.swift in Sources */,
 				C330D10722D118AF00C88079 /* Budgit.xcdatamodeld in Sources */,
 				C330D0FF22D118AF00C88079 /* AppDelegate.swift in Sources */,
 			);
@@ -438,7 +486,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S52HKPC4TS;
-				INFOPLIST_FILE = Budgit/Info.plist;
+				INFOPLIST_FILE = Budgit/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +504,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S52HKPC4TS;
-				INFOPLIST_FILE = Budgit/Info.plist;
+				INFOPLIST_FILE = Budgit/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
