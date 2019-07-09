@@ -3,7 +3,7 @@
 //  Budgit
 //
 //  Created by Karen Weis on 7/6/19.
-//  Copyright © 2019 Carl Weis. All rights reserved.
+//  Copyright © 2019 Karen Weis. All rights reserved.
 //
 
 import Foundation

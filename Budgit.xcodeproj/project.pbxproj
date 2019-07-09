@@ -18,6 +18,7 @@
 		E3608E7422D1914C007DA9D2 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3608E7322D1914C007DA9D2 /* Budget.swift */; };
 		E3608E7622D1915A007DA9D2 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3608E7522D1915A007DA9D2 /* Expense.swift */; };
 		E3608E7822D1923E007DA9D2 /* RecurringFrequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3608E7722D1923E007DA9D2 /* RecurringFrequency.swift */; };
+		E3608E7A22D1974C007DA9D2 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3608E7922D1974C007DA9D2 /* Session.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		E3608E7322D1914C007DA9D2 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
 		E3608E7522D1915A007DA9D2 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		E3608E7722D1923E007DA9D2 /* RecurringFrequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecurringFrequency.swift; sourceTree = "<group>"; };
+		E3608E7922D1974C007DA9D2 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				C330D10A22D118B100C88079 /* LaunchScreen.storyboard */,
 				C330D10D22D118B100C88079 /* Info.plist */,
 				C330D10522D118AF00C88079 /* Budgit.xcdatamodeld */,
+				E3608E7922D1974C007DA9D2 /* Session.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3608E7A22D1974C007DA9D2 /* Session.swift in Sources */,
 				E3608E7822D1923E007DA9D2 /* RecurringFrequency.swift in Sources */,
 				C330D10122D118AF00C88079 /* DashboardViewController.swift in Sources */,
 				C330D10722D118AF00C88079 /* Budgit.xcdatamodeld in Sources */,
@@ -506,7 +510,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlweis.Budgit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karenweis.Budgit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -525,7 +529,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlweis.Budgit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karenweis.Budgit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -546,7 +550,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlweis.BudgitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karenweis.BudgitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -568,7 +572,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlweis.BudgitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karenweis.BudgitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -589,7 +593,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlweis.BudgitUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karenweis.BudgitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -610,7 +614,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.carlweis.BudgitUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karenweis.BudgitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
